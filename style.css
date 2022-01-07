@@ -20,9 +20,11 @@ h1{
     .p1{
       margin-top: 10px;
       color: rgb(129, 14, 14);
+      margin-bottom: 20px;
     }
     section{
      display: flex;
+     margin-bottom: 100px;
 
     }
     .sec1{
@@ -40,10 +42,15 @@ h1{
      border-radius: 5px;
      font-weight: 700;
      color: white;
+     margin-top: 0.5in;
   }
  .corner-img{
-background-image: url(top-banner.png);
+background-image: url(image/top-banner.png);
 background-repeat: no-repeat;
+ }
+ .h1-2nd{
+color: crimson;
+
  }
 
 
