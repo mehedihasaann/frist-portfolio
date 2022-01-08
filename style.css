@@ -9,7 +9,7 @@ body{
 
 
 h1{
-    font-size: 50px;
+    font-size: 40px;
     
 }
 
@@ -22,13 +22,13 @@ h1{
       color: rgb(129, 14, 14);
       margin-bottom: 20px;
     }
-    section{
+    .flexible-content{
      display: flex;
      margin-bottom: 100px;
 
     }
     .sec1{
-        padding-left: 5%; 
+        padding-left: 3%; 
         width: 50%;
     }
   .sec1 img{
@@ -52,8 +52,44 @@ background-repeat: no-repeat;
 color: crimson;
 
  }
+.dream{
+background-image: url(image/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right bottom;
+}
+.expo1-2{
+margin-left: 5%;
+margin-right: 5%;
+  width: 40%;
+  padding-left: 20px;
+box-shadow: 10px 10px 40px rgb(157, 165, 42);
+}
+.b1{
+color: darkgreen;
+}
+.b2
+{
+  color: chartreuse;
+}
+.h2d{
+color: darkorange;
 
+}
+.con-area{
+background-image:url(image/exp-bg.png);
+background-repeat: no-repeat;
+background-position:left center;
 
+}
+#border1{
 
+  border-left:5px solid;
+ border-image: radial-gradient(blue,red);
+border-image-slice: 1;
+}
+footer p{
 
-
+  text-align: center;
+  color: chartreuse;
+  font-weight: bold;
+}
